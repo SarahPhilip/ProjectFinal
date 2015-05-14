@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/values-pl/strings.xml -->
+    <eat-comment/>
+    <string-array name="days_of_week">
+    <item>"poniedziałek"</item>
+    <item>"wtorek"</item>
+    <item>"środa"</item>
+    <item>"czwartek"</item>
+    <item>"piątek"</item>
+    <item>"sobota"</item>
+    <item>"niedziela"</item>
+  </string-array>
+    <string-array name="days_of_week_short">
+    <item>"Pn"</item>
+    <item>"Wt"</item>
+    <item>"Śr"</item>
+    <item>"Cz"</item>
+    <item>"Pt"</item>
+    <item>"So"</item>
+    <item>"Ndz"</item>
+  </string-array>
+    <string name="add_alarm">"Dodaj alarm"</string>
+    <string name="alarm_alert_alert_silenced">"Alarm jest wyciszany po <ns1:g id="MINUTES">%d</ns1:g> min."</string>
+    <string name="alarm_alert_dismiss_text">"Zamknij"</string>
+    <string name="alarm_alert_snooze_not_set">"Nie ustawiono drzemki – następny alarm: <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string name="alarm_alert_snooze_set">"Drzemka przez <ns1:g id="MINUTES">%d</ns1:g> min."</string>
+    <string name="alarm_alert_snooze_text">"Drzemka"</string>
+    <string name="alarm_in_silent_mode_summary">"Odtwórz alarm, nawet gdy telefon jest w trybie cichym"</string>
+    <string name="alarm_in_silent_mode_title">"Alarm w trybie cichym"</string>
+    <string name="alarm_repeat">"Powtarzanie"</string>
+    <string name="alarm_set">"Ustawiony alarm zadzwoni za <ns1:g id="TIME_DELTA">%s</ns1:g>"</string>
+    <string name="alarm_vibrate">"Wibracje"</string>
+    <string name="alert">"Dzwonek"</string>
+    <string name="alert_title">"Alarm"</string>
+    <string name="am">"AM"</string>
+    <string name="analog_gadget">"Zegar analogowy"</string>
+    <string name="and">" oraz "</string>
+    <string name="app_label">"Budzik"</string>
+    <string name="clock_instructions">"Wybierz wyświetlany zegar."</string>
+    <string name="combiner">"<ns1:g id="XXX_0">%1$s</ns1:g><ns1:g id="XXX_1">%2$s</ns1:g><ns1:g id="XXX_2">%3$s</ns1:g><ns1:g id="XXX_3">%4$s</ns1:g><ns1:g id="XXX_4">%5$s</ns1:g>"</string>
+    <string name="day">"1 dzień"</string>
+    <string name="day_concat">", "</string>
+    <string name="days">"<ns1:g id="DAYS">%s</ns1:g> dni"</string>
+    <string name="dberror">"Niestety, nie można ustawić alarmu."</string>
+    <string name="default_label">"Alarm"</string>
+    <string name="delete_alarm">"Usuń alarm"</string>
+    <string name="delete_alarm_confirm">"Ten zegar zostanie usunięty."</string>
+    <string name="enable">"Włącz alarm"</string>
+    <string name="error">"Alarm nieustawiony"</string>
+    <string name="every_day">"codziennie"</string>
+    <string name="hide_clock">"Ukryj zegar"</string>
+    <string name="hour">"1 godz."</string>
+    <string name="hours">"<ns1:g id="HOURS">%s</ns1:g> godz."</string>
+    <string name="label">"Etykieta"</string>
+    <string name="minute">"1 min"</string>
+    <string name="minutes">"<ns1:g id="MINUTES">%s</ns1:g> min"</string>
+    <string name="never">"Nigdy"</string>
+    <string name="pm">"PM"</string>
+    <string name="set_alarm">"Ustaw alarm"</string>
+    <string name="settings">"Ustawienia"</string>
+    <string name="show_clock">"Pokaż zegar"</string>
+    <string name="space">" "</string>
+    <string name="subminute">"mniej niż 1 min"</string>
+    <string name="time">"Godzina"</string>
+</resources>

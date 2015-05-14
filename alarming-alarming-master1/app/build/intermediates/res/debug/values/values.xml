@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="captcha_types">
+      <item>None</item>
+      <item>Puzzle</item>
+      <item>Math</item>
+    </string-array>
+    <string-array name="captcha_values">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+    </string-array>
+    <!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="crescendo_values">
+    <item>0</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+    <item>30</item>
+    <item>40</item>
+    <item>50</item>
+    <item>60</item>
+  </string-array>
+    <!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="days_of_week">
+        <!-- Day of week: Monday -->
+        <item>Monday</item>
+        <!-- Day of week: Tuesday -->
+        <item>Tuesday</item>
+        <!-- Day of week: Wednesday -->
+        <item>Wednesday</item>
+        <!-- Day of week: Thursday -->
+        <item>Thursday</item>
+        <!-- Day of week: Friday  -->
+        <item>Friday</item>
+        <!-- Day of week: Saturday -->
+        <item>Saturday</item>
+        <!-- Day of week: Sunday -->
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="days_of_week_short">
+        <!-- Short Day of week: Mon -->
+        <item>Mon</item>
+        <!-- Short Day of week: Tue -->
+        <item>Tue</item>
+        <!-- Short Day of week: Wed -->
+        <item>Wed</item>
+        <!-- Short Day of week: Thu -->
+        <item>Thu</item>
+        <!-- Short Day of week: Fri  -->
+        <item>Fri</item>
+        <!-- Short Day of week: Sat -->
+        <item>Sat</item>
+        <!-- Short Day of week: Sun -->
+        <item>Sun</item>
+    </string-array>
+    <!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="delay_values">
+    <item>0</item>
+    <item>250</item>
+    <item>500</item>
+    <item>750</item>
+    <item>1000</item>
+    <item>1500</item>
+    <item>2000</item>
+    <item>2500</item>
+    <item>3000</item>
+    <item>4000</item>
+    <item>5000</item>
+    <item>6000</item>
+    <item>7000</item>
+    <item>8000</item>
+    <item>9000</item>
+    <item>10000</item>
+  </string-array>
+    <string-array name="duration_values">
+    <item>0</item>
+    <item>1</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+    <item>30</item>
+    <item>40</item>
+    <item>50</item>
+    <item>60</item>
+  </string-array>
+    <string-array name="volume_values">
+    <item>10</item>
+    <item>20</item>
+    <item>30</item>
+    <item>40</item>
+    <item>50</item>
+    <item>60</item>
+    <item>70</item>
+    <item>80</item>
+    <item>90</item>
+    <item>100</item>
+  </string-array>
+    <!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="ampm_off">#ff404040</color>
+    <color name="ampm_on">#ffffffff</color>
+    <color name="ltgrey">#ffe0e0e0</color>
+    <color name="red">#ffee0000</color>
+    <color name="white">#ffffffff</color>
+    <!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">About</string>
+    <string name="about_text"><b>Original source</b>\n<u>http://source.android.com</u>\n\n
+    <b>Source code available</b>\n<u>http://github.com/lithium/alarming</u>\n\n
+    <b>Icon created by</b>\n<u>http://en.wikipedia.org/wiki/User:Tkgd2007</u>\n\n
+    Published by Hlidskialf Software\n\n
+    No warranty of any kind provided.\nNo affiliation with above parties implied.
+    </string>
+    <string name="about_title">About Alarming!</string>
+    <string name="add_alarm">Add alarm</string>
+    <string name="alarm_alert_alert_silenced">Alarm silenced after <ns1:g id="minutes">%d</ns1:g> minutes</string>
+    <string name="alarm_alert_dismiss_text">Dismiss</string>
+    <string name="alarm_alert_snooze_not_set">Snooze not set -- next alarm set for <ns1:g id="time">%s</ns1:g></string>
+    <string name="alarm_alert_snooze_set">Snoozing for <ns1:g id="minutes">%d</ns1:g> minutes.</string>
+    <string name="alarm_alert_snooze_text">Snooze</string>
+    <string name="alarm_defaults">Alarm Defaults</string>
+    <string name="alarm_defaults_summary">Defaults for new alarms and quick snooze</string>
+    <string name="alarm_in_silent_mode_summary">Play alarm even when the phone is in silent mode</string>
+    <string name="alarm_in_silent_mode_title">Alarm in silent mode</string>
+    <string name="alarm_list_empty">No alarms.</string>
+    <string name="alarm_repeat">Repeat</string>
+    <string name="alarm_set">This alarm is set for <ns1:g id="time_delta">%s</ns1:g> from now.</string>
+    <string name="alarm_vibrate">Vibrate</string>
+    <string name="alarming_widget">Alarming! Clock</string>
+    <string name="alert">Ringtone</string>
+    <string name="alert_title">Alarm</string>
+    <string name="am">am</string>
+    <string name="analog_gadget">Analog clock</string>
+    <string name="and">" and "</string>
+    <string name="app_description">Alarming! - AlarmClock enhanced</string>
+    <string name="app_label">Alarming!</string>
+    <string name="app_version">2.1.0</string>
+    <string name="bed_clock">Bed Clock</string>
+    <string name="bedclock_enable">Enable bed clock</string>
+    <string name="bedclock_enable_summary">Large clock visible from bed</string>
+    <string name="bedclock_prefs">Bed Clock Preferences</string>
+    <string name="bedclock_prefs_summary">Bedside clock for night</string>
+    <string name="bedclock_wake_lock">Bed clock never sleeps</string>
+    <string name="bedclock_wake_lock_summary">Bed clock disables standby if charging</string>
+    <string name="captcha_dismiss">Captcha on Dismiss</string>
+    <string name="captcha_snooze">Captcha on Snooze</string>
+    <string name="clock_instructions">Select a clock to display.</string>
+    <string name="combiner"><ns1:g id="xxx">%1$s</ns1:g><ns1:g id="xxx">%2$s</ns1:g><ns1:g id="xxx">%3$s</ns1:g><ns1:g id="xxx">%4$s</ns1:g><ns1:g id="xxx">%5$s</ns1:g></string>
+    <string name="crescendo">Crescendo</string>
+    <string name="crescendo_disabled">No increase</string>
+    <string name="day">"1 day"</string>
+    <string name="day_concat">", "</string>
+    <string name="days">"<ns1:g id="days">%s</ns1:g> days"</string>
+    <string name="dberror">Sorry, the alarm could not be set.</string>
+    <string name="default_label">Alarm</string>
+    <string name="delay">Delay</string>
+    <string name="delay_disabled">Dont pause</string>
+    <string name="delete_alarm">Delete alarm</string>
+    <string name="delete_alarm_confirm">This alarm will be deleted.</string>
+    <string name="duration">Silence After</string>
+    <string name="duration_disabled">Never silence</string>
+    <string name="edit_alarm">Edit alarm</string>
+    <string name="enable">Turn on alarm</string>
+    <string name="error">Alarm not set</string>
+    <string name="every_day">every day</string>
+    <string name="flip_orientation">Flip orientation</string>
+    <string name="hide_clock">Hide clock</string>
+    <string name="hour">1 hour</string>
+    <string name="hours"><ns1:g id="hours">%s</ns1:g> hours</string>
+    <string name="label">Label</string>
+    <string name="milliseconds">ms</string>
+    <string name="minute">"1 minute"</string>
+    <string name="minutes">"<ns1:g id="minutes">%s</ns1:g> minutes"</string>
+    <string name="minutes_suffix">minutes</string>
+    <string name="never">Never</string>
+    <string name="next_animation">Next animation</string>
+    <string name="percent">%</string>
+    <string name="pm">pm</string>
+    <string name="preview_alarm">Preview alarm</string>
+    <string name="quick_alarm">Quick Snooze</string>
+    <string name="quickalarm_summary">Use Quick Snooze for short timers</string>
+    <string name="quickalarm_title">Show Quick Snooze</string>
+    <string name="seconds">seconds</string>
+    <string name="set_alarm">Set alarm</string>
+    <string name="settings">Settings</string>
+    <string name="shake_snooze_summary">Shake your phone to trigger snooze</string>
+    <string name="shake_snooze_title">Allow shake to snooze</string>
+    <string name="show_clock">Show clock</string>
+    <string name="show_clock_summary">Show clock on alarm list screen</string>
+    <string name="snooze">Snooze</string>
+    <string name="snooze_disabled">Snooze disabled</string>
+    <string name="snooze_dismissed">Snooze dismissed.</string>
+    <string name="snooze_message_text">Snoozing until %s</string>
+    <string name="space">" "</string>
+    <string name="subminute">"less than 1 minute"</string>
+    <string name="time">Time</string>
+    <string name="vibrate_only">Silent Alarm</string>
+    <string name="volume">Volume</string>
+    <!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="NoTitle_FullScreen" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="analogClock">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+</resources>

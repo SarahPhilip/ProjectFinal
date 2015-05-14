@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:layout_gravity="center"
+    android:textSize="120sp"
+    />
+<!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/layout/bedclock_text.xml -->

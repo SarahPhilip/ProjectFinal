@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+  android:shape="rectangle"
+  >
+  <gradient
+    android:startColor="#000000"
+    android:endColor="#FFFFFF"
+    android:angle="180"/>
+</shape> 
+<!-- From: file:/Users/Shameetha/Desktop/SDSU/Android/Project/alarming-alarming-master1/app/src/main/res/drawable/bwgradient.xml -->

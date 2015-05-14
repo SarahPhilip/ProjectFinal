@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hlidskialf.android.alarmclock"
+    android:versionCode="202000"
+    android:versionName="2.2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="3" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <application
+        android:icon="@drawable/alarming"
+        android:label="@string/app_label" >
+        <provider
+            android:name="com.hlidskialf.android.alarmclock.AlarmProvider"
+            android:authorities="com.hlidskialf.android.alarmclock" />
+
+        <activity
+            android:name="com.hlidskialf.android.alarmclock.AlarmClock"
+            android:label="@string/app_label" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hlidskialf.android.alarmclock.SettingsActivity"
+            android:label="@string/settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hlidskialf.android.alarmclock.SetAlarm"
+            android:label="@string/set_alarm" />
+        <activity
+            android:name="com.hlidskialf.android.alarmclock.AlarmAlert"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:label="@string/alert_title"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:taskAffinity=":AlarmAlert"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="com.hlidskialf.android.alarmclock.ClockPicker" />
+
+        <receiver android:name="com.hlidskialf.android.alarmclock.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="com.hlidskialf.android.alarmclock.ALARM_ALERT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hlidskialf.android.alarmclock.AlarmInitReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.hlidskialf.android.alarmclock.AnalogAppWidgetProvider"
+            android:label="@string/alarming_widget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/analog_appwidget" />
+        </receiver>
+
+        <activity
+            android:name="com.hlidskialf.android.alarmclock.BedClock"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoTitle_FullScreen" />
+        <activity
+            android:name="com.hlidskialf.android.alarmclock.AnalogAppWidgetConfigure"
+            android:label="@string/alarming_widget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

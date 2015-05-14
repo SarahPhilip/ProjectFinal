@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.sdsu.cs646.shameetha.alarmclocktest.AlarmDetailsActivity">
+
+    <item
+        android:id="@+id/action_save_alarm_details"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_save"
+        app:showAsAction="always"
+        android:title="Save"/>
+    <item
+        android:id="@+id/action_delete_alarm_details"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_discard"
+        app:showAsAction="always"
+        android:title="Delete"/>
+</menu>
